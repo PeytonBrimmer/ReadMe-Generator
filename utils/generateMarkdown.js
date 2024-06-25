@@ -80,6 +80,7 @@ function renderLicenseBadge(license) {
     ## Description
     ${data.description}
     ## Table of Contents
+    
     * [Installation](#installation)
     * [Usage](#usage)
     * [License](#license)
@@ -93,7 +94,7 @@ function renderLicenseBadge(license) {
     * [Contact](#contact)
     * 
     ## Installation
-    ${data.installation}
+    ${data.install}
     ## Usage
     ${data.usage}
     ${renderLicenseSection(data.license)}
@@ -102,15 +103,11 @@ function renderLicenseBadge(license) {
     ## Tests
     ${data.tests}
     ## Questions
-    ${data.questions}
-    ## Credits
-    ${data.credits}
-    ## Questions
     Contact Information:
     
     [https://github.com/${data.username}](https://github.com/${data.username})
   
-    ${data.email}
+    ##email me at ${data.email}
   `;
   }
   

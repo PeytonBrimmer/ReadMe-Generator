@@ -68,4 +68,4 @@ const question = [
     },
 ];
 
-module.exports = questions;
+module.exports = question;
